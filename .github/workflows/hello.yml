@@ -22,4 +22,4 @@ jobs:
           pwd
 
           echo "Liste des fichiers :"
-          ls -la
+          ls 
