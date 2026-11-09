@@ -23,6 +23,9 @@ jobs:
 
           echo "Liste des fichiers :"
           ls 
+
+      - name: error
+        run: exit 1
         
       - name: Informations Git
         run: |
